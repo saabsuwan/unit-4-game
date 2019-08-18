@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed&display=swap');
+
+
+body {
+	background-image: url("../images/81744.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+
+
+.header {
+	padding: 100px 50px;
+	text-align: center;
+
+	
+}
+
+#gameSection, #scoreSection {
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#buttonSection {
+
+	padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+/* Fonts */
+
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+
+h2, h3 {
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+
+}
+
+.numberBox {
+	font-size: 100px;
+	margin: 0px;
+}
+
+.icons {
+	display: inline-block;
+  	max-width: 100px;
+  	max-height: 100px;
+  	width: auto;
+  	height: auto;
+  	margin:10px;
+}
+
+#randomNumber {
+	color: #FA6900;
+}
+
+
+#finalTotal{
+	color: #F38630;
+}
+#numberWins {
+	color: #808080;
+	letter-spacing: 2px;
+}
+#numberLosses
+{
+	color: #808080;
+	letter-spacing: 2px;
+}
